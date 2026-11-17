@@ -1,24 +1,13 @@
 {
-  "number": 12,
   "name": "Screego",
   "source": "https://screego.net",
-  "docker_hub": "l11r/screego",
-  "tag": "unstable",
+  "docker_image": "l11r/screego:unstable",
+  "version": "unstable",
   "repository": "https://github.com/waskevin/tnas-app-screego",
-  "dual_arch": true,
   "architectures": [
-    "386",
-    "amd64",
-    "arm",
-    "arm64",
-    "ppc64le"
+    "linux/amd64",
+    "linux/arm64"
   ],
-  "screenshot_path": "precheck-screenshots/screego/x86_64/run.png",
-  "screenshot_status": "pending",
-  "developer_name": "管浩良",
-  "developer_email": "k.kuan@qq.com",
-  "submission_status": "not_submitted",
-  "scheduled_publish": "20:00",
-  "runtime_status": "no_http",
-  "runtime_note": ""
+  "description": "Screego container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
