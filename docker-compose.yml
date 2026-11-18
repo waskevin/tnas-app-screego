@@ -1,0 +1,6 @@
+services:
+  screego:
+    image: l11r/screego:unstable
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
